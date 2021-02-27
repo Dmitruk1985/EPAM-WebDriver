@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: tests.HardcoreTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.897 s <<< FAILURE! - in tests.HardcoreTest
+googleCloud  Time elapsed: 1.893 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 88.0.4324.190 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MICROSOFT-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00EBE7D3+124883]
+	Ordinal0 [0x00EBE7B1+124849]
+	GetHandleVerifier [0x01108688+193832]
+	GetHandleVerifier [0x01123AC5+305509]
+	GetHandleVerifier [0x0112021B+291003]
+	GetHandleVerifier [0x0111E0AC+282444]
+	GetHandleVerifier [0x01144A90+440624]
+	GetHandleVerifier [0x011447FC+439964]
+	GetHandleVerifier [0x0114154B+426987]
+	GetHandleVerifier [0x01124FFD+310941]
+	GetHandleVerifier [0x01125D8E+314414]
+	GetHandleVerifier [0x01125D19+314297]
+	GetHandleVerifier [0x011E31EC+1089676]
+	GetHandleVerifier [0x011E17C9+1082985]
+	GetHandleVerifier [0x011E13A3+1081923]
+	GetHandleVerifier [0x012DD9FD+2115741]
+	Ordinal0 [0x0100B82E+1488942]
+	Ordinal0 [0x00FA5A7D+1071741]
+	Ordinal0 [0x00FA559B+1070491]
+	Ordinal0 [0x00FA54B1+1070257]
+	Ordinal0 [0x00FDFF53+1310547]
+	BaseThreadInitThunk [0x759E6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77008944+228]
+	RtlGetAppContainerNamedObjectPath [0x77008914+180]
+
+

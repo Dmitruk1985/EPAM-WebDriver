@@ -1,0 +1,7 @@
+tests\CommonConditions.class
+service\TestDataReader.class
+tests\HurtMePlentyTest.class
+tests\HardcoreTest.class
+driver\DriverSingleton.class
+tests\ICanWinTest.class
+tests\BringItOnTest.class
